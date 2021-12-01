@@ -7,9 +7,9 @@ export default function AddFoodForm(props) {
     function handleSubmit(event) {
         event.preventDefault();
         //console.log("Form was prevented to submit");
-        //props.parentCB(formState);
+        props.parentCB(formState);
         setFormState({});
-        console.log(formState)
+        //console.log("SUBMIT ---------> ", formState)
     }
 
     function handleInput(event) {

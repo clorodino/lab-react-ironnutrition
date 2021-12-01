@@ -4,7 +4,7 @@ import foodDataJSON from "../foods.json";
 
 export default function FoodList(props){
 
-    const [foodList, setFoodList ] = useState(foodDataJSON)
+    //const [foodList, setFoodList ] = useState(foodDataJSON)
 
     return (
         <>
