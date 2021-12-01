@@ -20,8 +20,9 @@ export default function AddFoodForm(props) {
     }
 
     return (
+        <div className="form">
         <form onSubmit={handleSubmit}>
-            <h1>Add food entry</h1>
+            <h2>Add food entry</h2>
             <label htmlFor="name">Name:</label>
             <Input
                 type="text"
@@ -61,5 +62,6 @@ export default function AddFoodForm(props) {
             <br />
             <button type="submit">Create</button>
         </form>
+        </div>
     );
 }
